@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+header{
+    /* background-color: chocolate; */
+    padding: 14px;
+}
+h1{
+    font-size: 32px;
+}
+h3{
+    width: 100%;
+}
+.btn{
+    background-color: #F66909;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+.bold{
+    font-weight: 600;
+}
+.bgYellow{
+    background-color: #F3C827;
+}
+
+/* ---Le trio de choc--- */
+.alignItemsCenter{
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+/* ---Le trio de choc--- */
+.pBlock{
+    width: 50%;
+    display: block;
+}
+
+
+.basket{
+    color: #F3C827;
+    font-size: 26px;
+}
+.navHeader{
+    /* background-color: chartreuse; */
+    width: 50%;
+}
+/* Début Hero */
+.hero{
+    height: 100vh;
+}
+.hero h2{
+    font-family: "WindSong", cursive;
+    font-size: 128px;
+    font-weight:500;
+}
+        /* .container est à déplacer dans les règles générales */
+.container{
+    background-color: rgb(0, 251, 255);
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
