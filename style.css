@@ -23,6 +23,15 @@ h1{
 h3{
     width: 100%;
 }
+.container{
+            /* Grille anti-debordement+centrer */
+            /* background-color: rgb(0, 251, 255); */
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .btn{
     background-color: #F66909;
     border-radius: 4px;
@@ -31,11 +40,18 @@ h3{
     display: inline-block;
     margin-top: 30px;
 }
+.card{
+    width: fit-content;
+    width: 267px;
+}
 .bold{
     font-weight: 600;
 }
 .bgYellow{
     background-color: #F3C827;
+}
+.mrgnAuto{
+    margin: auto;
 }
 
 /* ---Le trio de choc--- */
@@ -43,6 +59,7 @@ h3{
     align-items: center;
 }
 .flex{
+
     display: flex;
     flex-wrap: wrap;
 }
@@ -50,9 +67,30 @@ h3{
     justify-content: space-between;
 }
 /* ---Le trio de choc--- */
-.pBlock{
-    width: 50%;
-    display: block;
+.spcArnd{
+    justify-content: space-around;
+}
+
+/* Widths and Heights */
+.ChildWidth45{
+    max-width: 45%;
+}
+.ChildWidth30{
+    max-width: 30%;
+}
+.ChildWidth26{
+    max-width: 26%;
+}
+.Height50vh{
+    height: 50vh;
+}
+.maxWidth300px{
+    max-width: 300px;
+}
+
+.pdng50{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -72,11 +110,4 @@ h3{
     font-family: "WindSong", cursive;
     font-size: 128px;
     font-weight:500;
-}
-        /* .container est à déplacer dans les règles générales */
-.container{
-    background-color: rgb(0, 251, 255);
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
 }
