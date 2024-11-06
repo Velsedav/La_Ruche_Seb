@@ -23,6 +23,7 @@ h1{
 h3{
     width: 100%;
 }
+
 .container{
             /* Grille anti-debordement+centrer */
             /* background-color: rgb(0, 251, 255); */
@@ -59,7 +60,6 @@ h3{
     align-items: center;
 }
 .flex{
-
     display: flex;
     flex-wrap: wrap;
 }
@@ -92,6 +92,9 @@ h3{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.pdng10{
+padding: 30px;
+}
 
 
 .basket{
@@ -110,4 +113,7 @@ h3{
     font-family: "WindSong", cursive;
     font-size: 128px;
     font-weight:500;
+}
+.dsplBlock{
+    display: block;
 }

@@ -112,7 +112,7 @@
         <h3>Nos produits</h3>
         <div class="flex spaceBetween">
           <div class="card bgYellow">
-            <img src="assets/produit1.png" alt="" />
+            <img width="100%" src="assets/produit1.png" alt="" />
             <h4>Miel de châtaignier</h4>
             <p>
               Le Miel de châtaignier tonifiant, connaît un regain de popularité
@@ -124,7 +124,7 @@
             </a>
           </div>
           <div class="card bgYellow">
-            <img src="assets/produit2.png" alt="" width="269px" />
+            <img width="100%" src="assets/produit2.png" alt="" width="269px" />
             <h4>Pain au miel</h4>
             <p>
               Le pain au miel est une recette au goût inégalé, fort d’un ancien
@@ -136,7 +136,7 @@
             </a>
           </div>
           <div class="card bgYellow">
-            <img src="assets/produit3.png" alt="" width="269px" />
+            <img width="100%" src="assets/produit3.png" alt="" width="269px" />
             <h4>Figues confites</h4>
             <p>
               La figue se marie à merveille à la douceur du miel pour faire
@@ -151,40 +151,63 @@
       </div>
     </section>
     <!-- Section nos clients -->
-    <section>
-      <div>
-        <img src="./assets/isabelle.png" alt="" />
-        <p>Isabelle B</p>
-        <div>★★★★☆</div>
-        <p>
-          La Ruche offre un miel de très bonne qualité, avec un goût authentique
-          qui rappelle vraiment le savoir-faire artisanal. Les emballages sont
-          soignés, et j'apprécie le côté local de cette entreprise
-        </p>
-      </div>
-      <div>
-        <img src="./assets/jean-luc.png" alt="" />
-        <p>Jean Luc D.</p>
-        <div>★★★★☆</div>
-        <p>
-          La Ruche offre un miel de très bonne qualité, avec un goût authentique
-          qui rappelle vraiment le savoir-faire artisanal. Les emballages sont
-          soignés, et j'apprécie le côté local de cette entreprise.
-        </p>
-      </div>
-      <div>
-        <img src="./assets/marie.png" alt="" />
-        <p>Marie G.</p>
-        <div>★★★★★</div>
-        <p>
-          La Ruche offre un miel de très bonne qualité, avec un goût authentique
-          qui rappelle vraiment le savoir-faire artisanal. Les emballages sont
-          soignés, et j'apprécie le côté local de cette entreprise
-        </p>
+    <section class="bgYellow">
+      <div class="container alignItemsCenter flex spaceBetween">
+        <h3>Nos clients</h3>
+        <!-- Div Avis 1 -->
+        <div class="flex spaceBetween ChildWidth30">
+          <div class="flex">
+            <!-- User Image -->
+            <div><img src="./assets/isabelle.png" alt="" /></div>
+            <!-- Name+Rating -->
+            <div>
+              <p>Isabelle B</p>
+              <div>★★★★☆</div>
+            </div>
+          </div>
+          <p>
+            La Ruche offre un miel de très bonne qualité, avec un goût
+            authentique qui rappelle vraiment le savoir-faire artisanal. Les
+            emballages sont soignés, et j'apprécie le côté local de cette
+            entreprise
+          </p>
+        </div>
+        <!-- Div Avis 2 -->
+        <div class="flex spaceBetween ChildWidth30">
+          <div class="flex">
+            <img src="./assets/jean-luc.png" alt="" />
+            <div>
+              <p>Jean Luc D.</p>
+              <div>★★★★☆</div>
+            </div>
+          </div>
+          <p>
+            La Ruche offre un miel de très bonne qualité, avec un goût
+            authentique qui rappelle vraiment le savoir-faire artisanal. Les
+            emballages sont soignés, et j'apprécie le côté local de cette
+            entreprise.
+          </p>
+        </div>
+        <!-- Div Avis 3 -->
+        <div class="flex spaceBetween ChildWidth30">
+          <div class="flex">
+            <img src="./assets/marie.png" alt="" />
+            <div>
+              <p>Marie G.</p>
+              <div>★★★★★</div>
+            </div>
+          </div>
+          <p>
+            La Ruche offre un miel de très bonne qualité, avec un goût
+            authentique qui rappelle vraiment le savoir-faire artisanal. Les
+            emballages sont soignés, et j'apprécie le côté local de cette
+            entreprise
+          </p>
+        </div>
       </div>
     </section>
     <!-- Section Nous trouver -->
-    <section>
+    <section class="container">
       <h3>Nous trouver</h3>
       <!-- carte -->
       <iframe
@@ -203,44 +226,48 @@
       </address>
     </section>
     <!-- Footer -->
-    <footer>
-      <div>
-        <h3>Contactez nous</h3>
-        <a href="tel:+"></a>
-        <a href="mailto:"></a>
-        <p>
-          Du lundi au vendredi
-          <br />
-          8h → 12h | 14h → 18h
-        </p>
-        <p>
-          Samedi
-          <br />
-          8h → 12h
-        </p>
-      </div>
-      <div>
-        <h3>Réseaux</h3>
-        <a href="">
-          <img src="./assets/fb.png" alt="" />
-        </a>
-        <a href="">
-          <img src="./assets/insta.png" alt="" />
-        </a>
-      </div>
-      <div>
-        <h3>Information</h3>
-        <ul>
-          <li>
-            <a href="">→ Plan du site</a>
-          </li>
-          <li>
-            <a href="">→ Condition générale de vente</a>
-          </li>
-          <li>
-            <a href="">→ Information légales</a>
-          </li>
-        </ul>
+    <footer class="bgYellow">
+      <div class="container flex spaceBetween">
+        <div>
+          <h3>Contactez nous</h3>
+          <i class="fa-solid fa-square-phone"></i
+          ><a href="tel:+33468205334">04.68.20.53.34</a>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:">laruche@orange.fr</a>
+          <p>
+            Du lundi au vendredi
+            <br />
+            8h → 12h | 14h → 18h
+          </p>
+          <p>
+            Samedi
+            <br />
+            8h → 12h
+          </p>
+        </div>
+        <div>
+          <h3>Réseaux</h3>
+          <a href="">
+            <img src="./assets/fb.png" alt="" />
+          </a>
+          <a href="">
+            <img src="./assets/insta.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <h3>Information</h3>
+          <ul>
+            <li>
+              <a href="">→ Plan du site</a>
+            </li>
+            <li>
+              <a href="">→ Condition générale de vente</a>
+            </li>
+            <li>
+              <a href="">→ Information légales</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
