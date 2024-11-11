@@ -23,6 +23,10 @@ h1{
 h3{
     width: 100%;
 }
+h2{
+    font-weight: 600;
+    font-size: 24px;
+}
 
 .container{
             /* Grille anti-debordement+centrer */
@@ -70,6 +74,9 @@ h3{
 .spcArnd{
     justify-content: space-around;
 }
+.flxClmn{
+    flex-direction: column;
+}
 
 /* Widths and Heights */
 .ChildWidth45{
@@ -87,13 +94,22 @@ h3{
 .maxWidth300px{
     max-width: 300px;
 }
-
+/* Paddings */
 .pdng50{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .pdng10{
-padding: 30px;
+padding: 10px;
+}
+.pdng13{
+    padding: 13px 0px;
+}
+.pdng32{
+    padding: 32px;
+}
+.pdng5{
+    padding: 5px 0px;
 }
 
 
