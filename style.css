@@ -22,11 +22,17 @@ h1{
 }
 h3{
     width: 100%;
+    padding-bottom: 12px;
 }
 h2{
     font-weight: 600;
     font-size: 24px;
+    padding-bottom: 12px;
 }
+h4{
+    padding: 6px 0px;
+}
+
 
 .container{
             /* Grille anti-debordement+centrer */
@@ -77,6 +83,9 @@ h2{
 .flxClmn{
     flex-direction: column;
 }
+.tac{
+    text-align: center;
+}
 
 /* Widths and Heights */
 .ChildWidth45{
@@ -111,6 +120,12 @@ padding: 10px;
 .pdng5{
     padding: 5px 0px;
 }
+.pdng5Left-Right{
+    padding: 0px 5px;
+}
+.mrgn5{
+    margin: 5px;
+}
 
 
 .basket{
@@ -132,4 +147,7 @@ padding: 10px;
 }
 .dsplBlock{
     display: block;
+}
+.dsplInLine{
+   display: inline; 
 }
