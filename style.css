@@ -23,7 +23,7 @@ h1{
 }
 h3{
     width: 100%;
-    padding-bottom: 12px;
+    padding-bottom: 20px;
 }
 h2{
     font-weight: 600;
@@ -33,7 +33,9 @@ h2{
 h4{
     padding: 6px 0px;
 }
-
+iframe {
+    padding: 40px 0px;
+}
 
 .container{
             /* Grille anti-debordement+centrer */
@@ -47,7 +49,7 @@ h4{
 .btn{
     background-color: #F66909;
     border-radius: 4px;
-    padding: 10px;
+    padding: 10px 14px;
     color: white;
     display: inline-block;
     margin-top: 30px;
@@ -104,10 +106,13 @@ h4{
     align-self: flex-start;
 }
 .Height50vh{
-    height: 50vh;
+    min-height: 50vh;
 }
 .maxWidth300px{
     max-width: 300px;
+}
+.fitCntnt {
+    width: max-content;
 }
 /* Paddings */
 .pdng50{
@@ -118,7 +123,7 @@ h4{
 padding: 10px;
 }
 .pdng13{
-    padding: 13px 0px;
+    padding: 14px 0px;
 }
 .pdng32{
     padding: 32px;
@@ -144,7 +149,7 @@ padding: 10px;
 }
 /* Début Hero */
 .hero{
-    height: 100vh;
+    min-height: 100vh;
 }
 .hero h2{
     font-family: "WindSong", cursive;
